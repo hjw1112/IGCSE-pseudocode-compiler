@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IGCSE Pseudocode Interpreter</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudocode Interpreter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>IGCSE Pseudocode Interpreter</h1>
-  <textarea id="code" placeholder="Enter pseudocode here..."></textarea>
-  <button onclick="runCode()">Run</button>
-  <h2>Output:</h2>
-  <pre id="output"></pre>
-  <script src="interpreter.js"></script>
+    <div class="container">
+        <h1>Pseudocode Interpreter</h1>
+        <textarea id="codeInput" placeholder="Write your pseudocode here..."></textarea>
+        <button id="runButton">Run</button>
+        <div class="output-container">
+            <h2>Output</h2>
+            <pre id="output"></pre>
+        </div>
+    </div>
+    <script src="interpreter.js"></script>
 </body>
 </html>
+
