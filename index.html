@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div id="interpreter">
         <h1>Pseudocode Interpreter</h1>
-        <textarea id="codeInput" placeholder="Write your pseudocode here..."></textarea>
-        <button id="runButton">Run</button>
-        <div class="output-container">
+        <textarea id="codeInput" placeholder="Enter your pseudocode here..."></textarea>
+        <div class="buttons">
+            <button id="runButton">Run Code</button>
+            <br>
+            <button id="checkSyntaxButton">Check Syntax</button>
+        </div>
+        <div id="outputContainer">
             <h2>Output</h2>
             <pre id="output"></pre>
         </div>
@@ -19,4 +23,5 @@
     <script src="interpreter.js"></script>
 </body>
 </html>
+
 
