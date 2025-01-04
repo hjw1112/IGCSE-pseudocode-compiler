@@ -17,7 +17,6 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Title */
 #interpreter h1 {
     text-align: center;
     color: #444;
@@ -91,4 +90,33 @@ button:active {
     #codeInput {
         height: 150px;
     }
+}
+
+#documentation {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-right: 550px;
+}
+
+#documentation:hover {
+    background-color: #0056b3;
+}
+
+#home {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-right: 90%;
+    text-align: center;
 }
